@@ -76,8 +76,8 @@ public class Operations {
     static void useForAndWhile() {
 
 
-        //verificare daca figura est eun patrat ultilizint intructiune 'FOR'
-        System.out.println("1.Verificare daca figura este un patrat ultilizint intructiunea 'FOR'.");
+        //verificare daca figura este un patrat ultilizind intructiunea 'FOR'
+        System.out.println("1.Verificare daca figura este un patrat utilizind instructiunea 'FOR'.");
         System.out.println("Lungimea tuturor laturilor este indicata ca fiind 4.");
         int nrError = 0;
         float[] arrayA = {4, 4, 4, 4};
@@ -89,7 +89,7 @@ public class Operations {
             }
         }
         if( nrError > 0) {
-            System.out.println("Aceasta figurat nu este un patrat.");
+            System.out.println("Aceasta figura nu este un patrat.");
         } else {
 
             System.out.println("Aceasta figura este un patrat.");
@@ -97,7 +97,7 @@ public class Operations {
         }
 
         System.out.println();
-        //aratam la ecran toate cifrele de la 1 la 10 utilizint instructionea 'WHILE'
+        //aratam la ecran toate cifrele de la 1 la 10 utilizint instructiunea 'WHILE'
         int i=1;
         System.out.println("2.Aratam la ecran toate cifrele de la 1 la 10 utilizind instructiunea 'WHILE'.");
         while(i<=10){
