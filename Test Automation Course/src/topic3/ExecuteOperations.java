@@ -19,7 +19,7 @@ public class ExecuteOperations {
         System.out.println();
 
 
-        System.out.println("Exemple de operatii folosint FOR si While.");
+        System.out.println("Exemple de operatii folosint 'FOR' si 'While'.");
         Operations.useForAndWhile();
         System.out.println();
 
