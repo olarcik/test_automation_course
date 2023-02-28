@@ -9,7 +9,7 @@ public class Main {
         om.virsta = 24;
         om.setGen('M');
 
-        System.out.println("Numele persoanei este " + om.nume );
+        System.out.println("Numele persoanei este " + om.nume);
         System.out.println("Virsta persoanei este " + om.virsta + " ani");
         System.out.println("Genul persoanei este - " + om.getGen());
 
