@@ -1,11 +1,9 @@
 package topic3;
 
-import java.text.DecimalFormat;
-
 public class Operations {
 
 
-    static void printAritmeticOperations(){
+    static void printAritmeticOperations() {
 
         int a = 12, b = 5;
 
@@ -29,7 +27,7 @@ public class Operations {
 
     }
 
-    static void printLogicOperations(){
+    static void printLogicOperations() {
 
         // && operatorul 'AND'
         System.out.println("(5 > 3) && (8 > 5) = " + ((5 > 3) && (8 > 5)));  // true
@@ -82,13 +80,13 @@ public class Operations {
         int nrError = 0;
         float[] arrayA = {4, 4, 4, 4};
 
-        for (int i = 0; i < arrayA.length-1; i++) {
+        for (int i = 0; i < arrayA.length - 1; i++) {
 
-            if (arrayA[i] != arrayA[i+1]) {
+            if (arrayA[i] != arrayA[i + 1]) {
                 nrError++;
             }
         }
-        if( nrError > 0) {
+        if (nrError > 0) {
             System.out.println("Aceasta figurat nu este un patrat.");
         } else {
 
@@ -98,9 +96,9 @@ public class Operations {
 
         System.out.println();
         //aratam la ecran toate cifrele de la 1 la 10 utilizint instructionea 'WHILE'
-        int i=1;
+        int i = 1;
         System.out.println("2.Aratam la ecran toate cifrele de la 1 la 10 utilizind instructiunea 'WHILE'.");
-        while(i<=10){
+        while (i <= 10) {
             System.out.println("Numarul " + i);
             i++;
         }
