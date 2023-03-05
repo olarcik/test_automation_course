@@ -4,14 +4,12 @@ public class Masina extends Vehicul {
 
     private String marca;
 
-    public Masina(String marca, String culoare, int nrRoti) {
+    public Masina (String marca, String culoare, int nrRoti) {
 
-        setCuloare(culoare);
-        setNrRoti(nrRoti);
+        super(culoare,nrRoti);
         this.marca = marca;
 
     }
-
     public void afiseazaDetaliiVehicul() {
 
         System.out.println("Marca masinii este : " + marca + ".");
