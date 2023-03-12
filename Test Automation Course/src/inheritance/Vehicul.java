@@ -5,6 +5,14 @@ public class Vehicul {
     private String culoare;
     private int nrRoti;
 
+    public Vehicul(String culoare, int nrRoti){
+
+        this.culoare = culoare;
+        this.nrRoti = nrRoti;
+
+    }
+
+
     public String getCuloare() {
 
         return culoare;
